@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.pink,
+.purple,
+.aqua,
+.green,
+.orange {
+    float: left;
+    height: 100px;
+    padding: 15px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+.pink {
+    background-color: #F5C6D6;
+    width: 100%;
+}
+
+.purple {
+    background-color: #EE2E84;
+    width: 25%;
+}
+
+.aqua {
+    background-color: #85CFD8;
+    width: 50%;
+}
+
+.green {
+    background-color: #8DC63F;
+    width: 75%;
+}
+
+.orange {
+    background-color: #E76E34;
+    width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+    .pink {
+        width: 100%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .purple {
+        width: 100%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .aqua {
+        width: 100%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .green {
+        width: 100%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .orange {
+        width: 100%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+}
