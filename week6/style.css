@@ -1,0 +1,416 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100%;
+    color:darkcyan;
+    text-align: left;
+    font-family: 'Asap', sans-serif;
+}
+
+body{
+    background-image: url("background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.topnav{
+    background-color:darkseagreen;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.topnav a{
+    float: left;
+    color: floralwhite;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+
+.topnav a:hover{
+    background-color: floralwhite;
+    color: black;
+}
+
+h1{
+    font-size: 40px;
+    color: black;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid darkseagreen;
+    padding: 5px;
+    background-color: floralwhite;
+}
+
+img {
+    width: 100%;
+}
+
+.section{
+    font-size: 75%;
+    color: darkcyan;
+    margin: auto;
+    width: 125%;
+    padding: 10px;
+}
+
+.section1{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.section2{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.section3{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.section4{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a{
+    color: aqua;
+}
+
+/*for laptop*/
+@media screen and (max-width: 1440px){
+    *{
+        box-sizing: border-box;
+    }
+    
+    html{
+        min-height: 100%;
+        color:darkcyan;
+        text-align: left;
+        font-family: 'Asap', sans-serif;
+    }
+    
+    body{
+        background-image: url("background4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .topnav{
+        background-color:darkseagreen;
+        overflow: hidden;
+        border: 2px solid floralwhite;
+    }
+    
+    .topnav a{
+        float: left;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        padding: 14px 16px;
+    }
+    
+    .topnav a:hover{
+        background-color: black;
+        color: floralwhite;
+    }
+    
+    h1{
+        font-size: 40px;
+        color: floralwhite;
+    
+    }
+    
+    h2{
+        font-size: 30px;
+    }
+    
+    .container{
+        width: 50%;
+        margin: 0 auto;
+        border: 2px solid floralwhite;
+        padding: 5px;
+        background-color: darkseagreen;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .section{
+        font-size: 75%;
+        color: darkcyan;
+        margin: auto;
+        width: 125%;
+        padding: 10px;
+    }
+    
+    .section1{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section2{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section3{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section4{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    footer{
+        display: block;
+        color: floralwhite;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    a{
+        color: aqua;
+    }
+}
+
+/*for tablet*/
+@media screen and (max-width: 768px){
+    *{
+        box-sizing: border-box;
+    }
+    
+    html{
+        min-height: 100%;
+        color:whitesmoke;
+        text-align: left;
+        font-family: 'Asap', sans-serif;
+    }
+    
+    body{
+        background-image: url("background4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .topnav{
+        background-color:slategray;
+        overflow: hidden;
+        border: 2px solid black;
+    }
+    
+    .topnav a{
+        float: left;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        padding: 14px 16px;
+    }
+    
+    .topnav a:hover{
+        background-color: slategray;
+        color: black;
+    }
+    
+    h1{
+        font-size: 40px;
+        color: black;
+    
+    }
+    
+    h2{
+        font-size: 30px;
+    }
+    
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid slategray;
+        padding: 5px;
+        background-color: black;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .section{
+        font-size: 75%;
+        color: slategray;
+        margin: auto;
+        width: 125%;
+        padding: 10px;
+    }
+    
+    .section1{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section2{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section3{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section4{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    footer{
+        display: block;
+        color: black;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    a{
+        color: whitesmoke;
+    }
+}
+
+/*for mobile*/
+@media screen and (max-width: 600px){
+    *{
+        box-sizing: border-box;
+    }
+    
+    html{
+        width: 100%;
+        color:lightpink;
+        text-align: left;
+        font-family: 'Asap', sans-serif;
+    }
+    
+    body{
+        background-image: url("background4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .topnav{
+        background-color:lightpink;
+        overflow: hidden;
+        border: 2px solid white;
+    }
+    
+    .topnav a{
+        float: left;
+        color: grey;
+        text-align: center;
+        font-size: 20px;
+        padding: 14px 16px;
+    }
+    
+    .topnav a:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    h1{
+        font-size: 40px;
+        color: black;
+    
+    }
+    
+    h2{
+        font-size: 30px;
+    }
+    
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid lightpink;
+        padding: 5px;
+        background-color: white;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .section{
+        font-size: 75%;
+        color: violet;
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .section1{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section2{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section3{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .section4{
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+    }
+    
+    footer{
+        display: block;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    a{
+        color: violet;
+    }
+}
