@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100%;
+    color:#5E363D;
+    text-align: left;
+    font-family: 'Asap', sans-serif;
+}
+
+body{
+    background-image: url("rose.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.topnav{
+    position: sticky;
+    background-color: #E38294;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    font-size: 40px;
+    color: #5E363D;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.container{
+    width: 100%;
+    margin: 15px auto;
+    padding: 5px;
+    background-color: white;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+}
+
+.section1{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.section2{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.section3{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    color: #5E363D;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #E38294;
+}
+
+a{
+    color: black;
+}
+
+/*for mobile*/
+@media only screen and (max-width: 768px){
+    
+    html{
+        width: 100%;
+        color: black;
+        text-align: left;
+        font-family: 'Asap', sans-serif;
+    }
+    
+    body{
+        background-color: white;
+        background-image: none;
+    }
+    
+    .container{
+        width: 100%;
+        margin: 15px auto;
+        padding: 5px;
+        background-color: white;
+    }
+    
+    img {
+        width: 100%;
+    }
+}
+
